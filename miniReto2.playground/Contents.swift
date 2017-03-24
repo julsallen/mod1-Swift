@@ -12,23 +12,40 @@ enum Velocidades : Int{
 
 class Auto{
     var velocidad = Velocidades.Apagado
-    var mensaje : String
     
-    init(velocidad: Int) {
+    init() {
         self.velocidad = Velocidades.Apagado
     }
     
     func cambioDeVelocidad() -> (actual: Int, velocidadEnCadena: String){
-        var velocidadActual = 0
-        if velocidadActual == Velocidades.Apagado.rawValue {
-            velocidadActual = Velocidades.VelocidadBaja.rawValue
-            mensaje = velocidadEnCadena
-        }else{
-            
-        }
-        let resultado = (velocidadActual,mensaje)
-        return resultado
         
+        let velocidadActual = self.velocidad.rawValue
+        let mensaje : String
+        
+        switch self.velocidad {
+        case .Apagado:
+            self.velocidad = .VelocidadBaja
+            mensaje = "Apagado"
+        case.VelocidadBaja:
+            self.velocidad = .VelocidadMedia
+            mensaje = "Velocidad Baja"
+        case.VelocidadMedia:
+            self.velocidad = .VelocidadAlta
+            mensaje = "Velocidad Media"
+        case.VelocidadAlta:
+            self.velocidad = .VelocidadMedia
+            mensaje = "Velocidad Alta"
+        }
+        return (actual: velocidadActual, velocidadEnCadena: mensaje)
     }
+}
+
+var auto = Auto()
+
+let numeros = 1...20
+
+for var i in numeros{
+    let velocidad = auto.cambioDeVelocidad()
+    print("-\(i)- \t\t\(velocidad.actual)\t\t \(velocidad.velocidadEnCadena)")
     
 }
