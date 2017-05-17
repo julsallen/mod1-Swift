@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1CE5F91EC3C29F0095DA75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CE5F81EC3C29F0095DA75 /* AppDelegate.swift */; };
+		AE1CE5FB1EC3C29F0095DA75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CE5FA1EC3C29F0095DA75 /* ViewController.swift */; };
+		AE1CE5FE1EC3C29F0095DA75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE5FC1EC3C29F0095DA75 /* Main.storyboard */; };
+		AE1CE6001EC3C29F0095DA75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE5FF1EC3C29F0095DA75 /* Assets.xcassets */; };
+		AE1CE6031EC3C29F0095DA75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6011EC3C29F0095DA75 /* LaunchScreen.storyboard */; };
+		AE1CE61C1EC3C3850095DA75 /* aceitunas.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE60B1EC3C3850095DA75 /* aceitunas.png */; };
+		AE1CE61D1EC3C3850095DA75 /* anchoas.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE60C1EC3C3850095DA75 /* anchoas.png */; };
+		AE1CE61E1EC3C3850095DA75 /* Auburn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE60D1EC3C3850095DA75 /* Auburn.jpg */; };
+		AE1CE61F1EC3C3850095DA75 /* cebolla.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE60E1EC3C3850095DA75 /* cebolla.png */; };
+		AE1CE6201EC3C3850095DA75 /* cheddar.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE60F1EC3C3850095DA75 /* cheddar.png */; };
+		AE1CE6211EC3C3850095DA75 /* jamon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6101EC3C3850095DA75 /* jamon.jpg */; };
+		AE1CE6221EC3C3850095DA75 /* mozzarella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6111EC3C3850095DA75 /* mozzarella.jpg */; };
+		AE1CE6231EC3C3850095DA75 /* mozzarella2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6121EC3C3850095DA75 /* mozzarella2.png */; };
+		AE1CE6241EC3C3850095DA75 /* parmesano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6131EC3C3850095DA75 /* parmesano.jpg */; };
+		AE1CE6251EC3C3850095DA75 /* pavo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6141EC3C3850095DA75 /* pavo.jpg */; };
+		AE1CE6261EC3C3850095DA75 /* pepperoni.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6151EC3C3850095DA75 /* pepperoni.png */; };
+		AE1CE6271EC3C3850095DA75 /* pimiento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6161EC3C3850095DA75 /* pimiento.jpg */; };
+		AE1CE6281EC3C3850095DA75 /* pina.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6171EC3C3850095DA75 /* pina.png */; };
+		AE1CE6291EC3C3850095DA75 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6181EC3C3850095DA75 /* pizza.jpg */; };
+		AE1CE62A1EC3C3850095DA75 /* pizza-tamano.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE6191EC3C3850095DA75 /* pizza-tamano.png */; };
+		AE1CE62B1EC3C3850095DA75 /* salchicha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE61A1EC3C3850095DA75 /* salchicha.jpg */; };
+		AE1CE62C1EC3C3850095DA75 /* sinqueso.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CE61B1EC3C3850095DA75 /* sinqueso.png */; };
+		AE1CE6301EC3CB370095DA75 /* VistaMasas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CE62F1EC3CB370095DA75 /* VistaMasas.swift */; };
+		AE1CE6321EC3CB640095DA75 /* VistaQuesos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CE6311EC3CB640095DA75 /* VistaQuesos.swift */; };
+		AE1CE6341EC3CB6F0095DA75 /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CE6331EC3CB6F0095DA75 /* VistaIngredientes.swift */; };
+		AE1CE6361EC3CB910095DA75 /* VistaConfirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CE6351EC3CB910095DA75 /* VistaConfirmacion.swift */; };
+		AE1CE6381EC3CB9E0095DA75 /* VistaFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CE6371EC3CB9E0095DA75 /* VistaFinal.swift */; };
+		AE629D361EC509D800D74D46 /* VistaTamanos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE629D351EC509D800D74D46 /* VistaTamanos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE1CE5F51EC3C29F0095DA75 /* Pizzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1CE5F81EC3C29F0095DA75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE1CE5FA1EC3C29F0095DA75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE1CE5FD1EC3C29F0095DA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1CE5FF1EC3C29F0095DA75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1CE6021EC3C29F0095DA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE1CE6041EC3C29F0095DA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1CE60B1EC3C3850095DA75 /* aceitunas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aceitunas.png; path = imagenes/aceitunas.png; sourceTree = "<group>"; };
+		AE1CE60C1EC3C3850095DA75 /* anchoas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anchoas.png; path = imagenes/anchoas.png; sourceTree = "<group>"; };
+		AE1CE60D1EC3C3850095DA75 /* Auburn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Auburn.jpg; path = imagenes/Auburn.jpg; sourceTree = "<group>"; };
+		AE1CE60E1EC3C3850095DA75 /* cebolla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cebolla.png; path = imagenes/cebolla.png; sourceTree = "<group>"; };
+		AE1CE60F1EC3C3850095DA75 /* cheddar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cheddar.png; path = imagenes/cheddar.png; sourceTree = "<group>"; };
+		AE1CE6101EC3C3850095DA75 /* jamon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jamon.jpg; path = imagenes/jamon.jpg; sourceTree = "<group>"; };
+		AE1CE6111EC3C3850095DA75 /* mozzarella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mozzarella.jpg; path = imagenes/mozzarella.jpg; sourceTree = "<group>"; };
+		AE1CE6121EC3C3850095DA75 /* mozzarella2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mozzarella2.png; path = imagenes/mozzarella2.png; sourceTree = "<group>"; };
+		AE1CE6131EC3C3850095DA75 /* parmesano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = parmesano.jpg; path = imagenes/parmesano.jpg; sourceTree = "<group>"; };
+		AE1CE6141EC3C3850095DA75 /* pavo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pavo.jpg; path = imagenes/pavo.jpg; sourceTree = "<group>"; };
+		AE1CE6151EC3C3850095DA75 /* pepperoni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pepperoni.png; path = imagenes/pepperoni.png; sourceTree = "<group>"; };
+		AE1CE6161EC3C3850095DA75 /* pimiento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pimiento.jpg; path = imagenes/pimiento.jpg; sourceTree = "<group>"; };
+		AE1CE6171EC3C3850095DA75 /* pina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pina.png; path = imagenes/pina.png; sourceTree = "<group>"; };
+		AE1CE6181EC3C3850095DA75 /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pizza.jpg; path = imagenes/pizza.jpg; sourceTree = "<group>"; };
+		AE1CE6191EC3C3850095DA75 /* pizza-tamano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pizza-tamano.png"; path = "imagenes/pizza-tamano.png"; sourceTree = "<group>"; };
+		AE1CE61A1EC3C3850095DA75 /* salchicha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = salchicha.jpg; path = imagenes/salchicha.jpg; sourceTree = "<group>"; };
+		AE1CE61B1EC3C3850095DA75 /* sinqueso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sinqueso.png; path = imagenes/sinqueso.png; sourceTree = "<group>"; };
+		AE1CE62F1EC3CB370095DA75 /* VistaMasas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaMasas.swift; sourceTree = "<group>"; };
+		AE1CE6311EC3CB640095DA75 /* VistaQuesos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQuesos.swift; sourceTree = "<group>"; };
+		AE1CE6331EC3CB6F0095DA75 /* VistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
+		AE1CE6351EC3CB910095DA75 /* VistaConfirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaConfirmacion.swift; sourceTree = "<group>"; };
+		AE1CE6371EC3CB9E0095DA75 /* VistaFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaFinal.swift; sourceTree = "<group>"; };
+		AE629D351EC509D800D74D46 /* VistaTamanos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTamanos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1CE5F21EC3C29F0095DA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1CE5EC1EC3C29F0095DA75 = {
+			isa = PBXGroup;
+			children = (
+				AE1CE5F71EC3C29F0095DA75 /* Pizzas */,
+				AE1CE5F61EC3C29F0095DA75 /* Products */,
+				AE1CE60A1EC3C3050095DA75 /* Imagenes */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1CE5F61EC3C29F0095DA75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1CE5F51EC3C29F0095DA75 /* Pizzas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1CE5F71EC3C29F0095DA75 /* Pizzas */ = {
+			isa = PBXGroup;
+			children = (
+				AE1CE5F81EC3C29F0095DA75 /* AppDelegate.swift */,
+				AE1CE5FA1EC3C29F0095DA75 /* ViewController.swift */,
+				AE1CE62F1EC3CB370095DA75 /* VistaMasas.swift */,
+				AE1CE6311EC3CB640095DA75 /* VistaQuesos.swift */,
+				AE1CE6331EC3CB6F0095DA75 /* VistaIngredientes.swift */,
+				AE1CE6351EC3CB910095DA75 /* VistaConfirmacion.swift */,
+				AE1CE6371EC3CB9E0095DA75 /* VistaFinal.swift */,
+				AE629D351EC509D800D74D46 /* VistaTamanos.swift */,
+				AE1CE5FC1EC3C29F0095DA75 /* Main.storyboard */,
+				AE1CE5FF1EC3C29F0095DA75 /* Assets.xcassets */,
+				AE1CE6011EC3C29F0095DA75 /* LaunchScreen.storyboard */,
+				AE1CE6041EC3C29F0095DA75 /* Info.plist */,
+			);
+			path = Pizzas;
+			sourceTree = "<group>";
+		};
+		AE1CE60A1EC3C3050095DA75 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				AE1CE60B1EC3C3850095DA75 /* aceitunas.png */,
+				AE1CE60C1EC3C3850095DA75 /* anchoas.png */,
+				AE1CE60D1EC3C3850095DA75 /* Auburn.jpg */,
+				AE1CE60E1EC3C3850095DA75 /* cebolla.png */,
+				AE1CE60F1EC3C3850095DA75 /* cheddar.png */,
+				AE1CE6101EC3C3850095DA75 /* jamon.jpg */,
+				AE1CE6111EC3C3850095DA75 /* mozzarella.jpg */,
+				AE1CE6121EC3C3850095DA75 /* mozzarella2.png */,
+				AE1CE6131EC3C3850095DA75 /* parmesano.jpg */,
+				AE1CE6141EC3C3850095DA75 /* pavo.jpg */,
+				AE1CE6151EC3C3850095DA75 /* pepperoni.png */,
+				AE1CE6161EC3C3850095DA75 /* pimiento.jpg */,
+				AE1CE6171EC3C3850095DA75 /* pina.png */,
+				AE1CE6181EC3C3850095DA75 /* pizza.jpg */,
+				AE1CE6191EC3C3850095DA75 /* pizza-tamano.png */,
+				AE1CE61A1EC3C3850095DA75 /* salchicha.jpg */,
+				AE1CE61B1EC3C3850095DA75 /* sinqueso.png */,
+			);
+			name = Imagenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1CE5F41EC3C29F0095DA75 /* Pizzas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1CE6071EC3C29F0095DA75 /* Build configuration list for PBXNativeTarget "Pizzas" */;
+			buildPhases = (
+				AE1CE5F11EC3C29F0095DA75 /* Sources */,
+				AE1CE5F21EC3C29F0095DA75 /* Frameworks */,
+				AE1CE5F31EC3C29F0095DA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pizzas;
+			productName = Pizzas;
+			productReference = AE1CE5F51EC3C29F0095DA75 /* Pizzas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1CE5ED1EC3C29F0095DA75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = COAZ;
+				TargetAttributes = {
+					AE1CE5F41EC3C29F0095DA75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE1CE5F01EC3C29F0095DA75 /* Build configuration list for PBXProject "Pizzas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE1CE5EC1EC3C29F0095DA75;
+			productRefGroup = AE1CE5F61EC3C29F0095DA75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1CE5F41EC3C29F0095DA75 /* Pizzas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1CE5F31EC3C29F0095DA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1CE6031EC3C29F0095DA75 /* LaunchScreen.storyboard in Resources */,
+				AE1CE6201EC3C3850095DA75 /* cheddar.png in Resources */,
+				AE1CE62C1EC3C3850095DA75 /* sinqueso.png in Resources */,
+				AE1CE6241EC3C3850095DA75 /* parmesano.jpg in Resources */,
+				AE1CE6281EC3C3850095DA75 /* pina.png in Resources */,
+				AE1CE6271EC3C3850095DA75 /* pimiento.jpg in Resources */,
+				AE1CE6231EC3C3850095DA75 /* mozzarella2.png in Resources */,
+				AE1CE6221EC3C3850095DA75 /* mozzarella.jpg in Resources */,
+				AE1CE6291EC3C3850095DA75 /* pizza.jpg in Resources */,
+				AE1CE62A1EC3C3850095DA75 /* pizza-tamano.png in Resources */,
+				AE1CE61C1EC3C3850095DA75 /* aceitunas.png in Resources */,
+				AE1CE6001EC3C29F0095DA75 /* Assets.xcassets in Resources */,
+				AE1CE6251EC3C3850095DA75 /* pavo.jpg in Resources */,
+				AE1CE6261EC3C3850095DA75 /* pepperoni.png in Resources */,
+				AE1CE61F1EC3C3850095DA75 /* cebolla.png in Resources */,
+				AE1CE61D1EC3C3850095DA75 /* anchoas.png in Resources */,
+				AE1CE6211EC3C3850095DA75 /* jamon.jpg in Resources */,
+				AE1CE61E1EC3C3850095DA75 /* Auburn.jpg in Resources */,
+				AE1CE62B1EC3C3850095DA75 /* salchicha.jpg in Resources */,
+				AE1CE5FE1EC3C29F0095DA75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1CE5F11EC3C29F0095DA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1CE5FB1EC3C29F0095DA75 /* ViewController.swift in Sources */,
+				AE1CE6361EC3CB910095DA75 /* VistaConfirmacion.swift in Sources */,
+				AE1CE6321EC3CB640095DA75 /* VistaQuesos.swift in Sources */,
+				AE1CE6341EC3CB6F0095DA75 /* VistaIngredientes.swift in Sources */,
+				AE1CE6381EC3CB9E0095DA75 /* VistaFinal.swift in Sources */,
+				AE1CE5F91EC3C29F0095DA75 /* AppDelegate.swift in Sources */,
+				AE1CE6301EC3CB370095DA75 /* VistaMasas.swift in Sources */,
+				AE629D361EC509D800D74D46 /* VistaTamanos.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE1CE5FC1EC3C29F0095DA75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1CE5FD1EC3C29F0095DA75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE1CE6011EC3C29F0095DA75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1CE6021EC3C29F0095DA75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE1CE6051EC3C29F0095DA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE1CE6061EC3C29F0095DA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1CE6081EC3C29F0095DA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pizzas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coazgt.Pizzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE1CE6091EC3C29F0095DA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pizzas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coazgt.Pizzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1CE5F01EC3C29F0095DA75 /* Build configuration list for PBXProject "Pizzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1CE6051EC3C29F0095DA75 /* Debug */,
+				AE1CE6061EC3C29F0095DA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1CE6071EC3C29F0095DA75 /* Build configuration list for PBXNativeTarget "Pizzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1CE6081EC3C29F0095DA75 /* Debug */,
+				AE1CE6091EC3C29F0095DA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1CE5ED1EC3C29F0095DA75 /* Project object */;
+}
